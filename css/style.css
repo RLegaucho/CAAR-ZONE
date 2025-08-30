@@ -149,3 +149,50 @@ header input{
 .get_more i:hover{
   color: var(--secondary-color);
 }
+
+/********************************* quick vehicule ***************************/
+.quick_vehicule{
+  background-color: var(--fird-color);
+  width: 80%;
+  margin: 0 auto;
+  z-index: 10;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+  transform: translateY(-185px);
+  padding: 20px;
+}
+.quick_vehicule > div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quick_vehicule .characteristuque{
+  display: flex;
+  flex-direction: column;
+}
+.quick_vehicule h1{
+  font-size: 3rem;
+  margin-bottom: 60px;
+}
+.quick_vehicule label{
+  font-size: 1.5rem;
+  font-weight: medium;
+  color: #121212;
+  margin-bottom: 2px;
+}
+.quick_vehicule .characteristuque{
+  margin-bottom: 20px;
+}
+.quick_vehicule input[type="text"]{
+  height: 26px;
+  padding: 5px;
+}
+.quick_vehicule input[type="submit"]{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  background-color: var(--secondary-color);
+  padding: 0.8rem 1rem;
+  border: none;
+  box-shadow: 0 0 10px var(--secondary-color);
+  margin-right: -65px;
+}
