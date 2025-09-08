@@ -183,8 +183,9 @@ header input{
   margin-bottom: 20px;
 }
 .quick_vehicule input[type="text"]{
-  height: 26px;
+  height: 30px;
   padding: 5px;
+  border: 0;
 }
 .quick_vehicule input[type="submit"]{
   font-size: 1.5rem;
@@ -195,4 +196,90 @@ header input{
   border: none;
   box-shadow: 0 0 10px var(--secondary-color);
   margin-right: -65px;
+}
+
+/********************************** BEST VEHICULE *******************/
+
+.best_vehicule{
+  margin: 0 auto;
+  transform: translateY(-12rem);
+  width: 80%;
+}
+.best_vehicule h1{
+  font-size: 3rem;
+  margin-bottom: 0.8rem;
+}
+.best_vehicule p{
+  font-size: 1.9rem;
+}
+.black_car_container{
+  display: flex;
+  justify-content: center;
+}
+.black_car{
+  background-color: #6B6C79;
+  width: 80%;
+  overflow: hidden;
+  padding: 1.5rem 2rem;
+  margin-top: -3.8rem;
+}
+.black_car img{
+  transform: translateX(-2rem);
+  width: 100%;
+}
+.black_car h1{
+  color: white;
+  margin: 1rem 0;
+}
+.black_car p{
+  color: #FEFEFE;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+.black_car button{
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  border: 0;
+}
+
+/**************************** SERVICES ********************/
+
+.services > div{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+.services .service{
+  border: solid 1px var(--secondary-color);
+  width: 80%;
+  padding: 2rem;
+}
+.service div:nth-child(1){
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+.service img[alt="fuel"] {
+  background-color: var(--secondary-color);
+  padding: 1rem;
+}
+.service p{
+  font-size: 1.3rem;
+  color: var(--head-color);
+  margin-bottom: 1.5rem;
+}
+.service .read_more{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.read_more a{
+  font-size: 1.5rem;
+  color: var(--secondary-color);
 }
